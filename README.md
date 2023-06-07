@@ -5,5 +5,6 @@
   <li><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
   <li><a href="https://github.com/yimingp">Github</a></li> 
 </ul>
-<div style="display:flex"></div>
+<div style="display:inline-block"></div>
 <hr>
+# Team Projects
