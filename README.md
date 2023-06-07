@@ -1,17 +1,19 @@
 <a id="home"/>
 <ul class="navbar">
-  <li class="navbar"><a href="#home">Home</a></li>
-  <li class="navbar"><a href="/">Team Projects</a></li>
-  <li class="navbar"><a href="#personalwork">Personal Work</a></li>
-  <li class="navbar"><a href="https://github.com/yimingp/yimingp.github.io/blob/main/resume.pdf">Resume</a></li>
-  <li class="navbar"><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
-  <li class="navbar"><a href="https://github.com/yimingp">Github</a></li> 
+  <li><a href="#home">Home</a></li>
+  <li><a href="/">Team Projects</a></li>
+  <li><a href="#personalwork">Personal Work</a></li>
+  <li><a href="https://github.com/yimingp/yimingp.github.io/blob/main/resume.pdf">Resume</a></li>
+  <li><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
+  <li><a href="https://github.com/yimingp">Github</a></li> 
 </ul>
 <div style="display:inline-block"></div>
 <hr>
 
 # About Me
-![hero_image](https://github.com/yimingp/yimingp.github.io/blob/main/hero_image.jpg)
+
+![hero_image](hero_image.jpg)<br>
+
 I am Yiming Pan, a gameplay and UI programmer currently pursuing a Masters of Interactive Technology at SMU Guildhall with a focus on Software Development. My passion lies in collaborating with talented individuals to create unique and polished games. I thrive on designing architecture systems for specific and innovative gameplay mechanics, blending different genres to create captivating experiences. Additionally, I have a strong interest in developing versatile and user-friendly UI systems that cater to various game genres.
 
 Outside of game development, I enjoy engaging in sports like tennis, ping-pong, and badminton. I also have a fondness for camping, gardening, and nurturing my love for animals. In my free time, you can find me immersed in fictional worlds, both as a reader and writer. I find joy in crafting compelling stories and have contemplated incorporating my storytelling skills into my game development projects.
