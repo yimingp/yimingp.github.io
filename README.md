@@ -4,10 +4,10 @@
   <li style="margin:.25rem"><a href="/">Team Projects</a></li>
   <li style="margin:.25rem"><a href="#personalwork">Personal Work</a></li>
   <li style="margin:.25rem"><a href="https://github.com/yimingp/yimingp.github.io/blob/main/resume.pdf">Resume</a></li>
-  <li><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
-  <li><a href="https://github.com/yimingp">Github</a></li> 
+  <li style="margin:.25rem"><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
+  <li style="margin:.25rem"><a href="https://github.com/yimingp">Github</a></li> 
 </ul>
-<p style="visibility:hidden;margin:0px;">1</p>
+<p style="visibility:hidden;margin:1px;">1</p>
 <hr>
 
 # About Me
