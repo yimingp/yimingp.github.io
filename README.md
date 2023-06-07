@@ -1,58 +1,119 @@
 <a id="home"/>
 <ul class="navbar">
-  <li class="navbar" style="background:none"><a href="#home">Home</a></li>
-  <li class="navbar" style="background:none"><a href="/">Team Projects</a></li>
-  <li class="navbar" style="background:none"><a href="#personalwork">Personal Work</a></li>
-  <li class="navbar" style="background:none"><a href="https://github.com/yimingp/yimingp.github.io/blob/main/assets/resume.pdf">Resume</a></li>
-  <li class="navbar" style="background:none"><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
-  <li class="navbar" style="background:none"><a href="https://github.com/yimingp">Github</a></li> 
+  <li class="navbar"><a href="#home">Home</a></li>
+  <li class="navbar"><a href="/">Team Projects</a></li>
+  <li class="navbar"><a href="#personalwork">Personal Work</a></li>
+  <li class="navbar"><a href="https://github.com/yimingp/yimingp.github.io/blob/main/resume.pdf">Resume</a></li>
+  <li class="navbar"><a href="https://www.linkedin.com/in/yiming-pan-a7b353185/">Linkedin</a></li>
+  <li class="navbar"><a href="https://github.com/yimingp">Github</a></li> 
 </ul>
 <div style="display:inline-block"></div>
 <hr>
 
 # About Me
-I am Yiming Pan, a video game programmer from Guangzhou China. I am currently working towards a Masters of Interactive Technology at SMU Guildhall with a focus on Software Development. 
+![hero_image](https://github.com/yimingp/yimingp.github.io/blob/main/hero_image.jpg)
+I am Yiming Pan, a gameplay and UI programmer currently pursuing a Masters of Interactive Technology at SMU Guildhall with a focus on Software Development. My passion lies in collaborating with talented individuals to create unique and polished games. I thrive on designing architecture systems for specific and innovative gameplay mechanics, blending different genres to create captivating experiences. Additionally, I have a strong interest in developing versatile and user-friendly UI systems that cater to various game genres.
+
+Outside of game development, I enjoy engaging in sports like tennis, ping-pong, and badminton. I also have a fondness for camping, gardening, and nurturing my love for animals. In my free time, you can find me immersed in fictional worlds, both as a reader and writer. I find joy in crafting compelling stories and have contemplated incorporating my storytelling skills into my game development projects.
+
+With a solid foundation in gameplay and UI programming, I am driven to achieve new milestones in my career. As I continue to grow, I aspire to work on projects that challenge me and allow me to specialize in specific aspects of gameplay or UI programming. I am always eager to learn and contribute to the game development industry.
 
 # Team Projects
 <a id="teamprojects"/>
 
 ## Seafeud
->Description of the game here
+>Description of the game goes here
 > 
->The trailer here
+>The trailer goes here
 > 
->Roles and responsibility here
+>Roles and responsibility goes here
 > 
->Things learned here
+>Things learned goes here
 > 
->link to steam page here
+>link to steam page goes here
 
 ## TGP3 
-a description
+>Description of the game goes here
+> 
+>The trailer goes here
+> 
+>Roles and responsibility goes here
+> 
+>Things learned goes here
+> 
+>link to steam page goes here
 
 # Personal work
 <a id="personalwork"/>
 
 ## Thesis
-> overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## DFS2
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## DFS1
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## SimpleMiner
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## Doomenstein
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## Libra
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## Starship
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
 
 ## ErorsDesk
->overview
+> gif goes here
+> 
+> description goes here
+> 
+> static image goes here
+> 
+> link goes here
