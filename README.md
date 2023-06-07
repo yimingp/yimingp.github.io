@@ -12,8 +12,8 @@
 
 # About Me
 
-<p align="center">
-    <img src="https://github.com/yimingp/yimingp.github.io/blob/main/hero_image.jpg">
+<p align="center" style="margin:0px">
+    <img src="hero_image.jpg">
 </p>
 <br>
 
