@@ -12,7 +12,7 @@
 
 # About Me
 
-<span style="display:block;text-align:center">![heroimage](hero_image.png)</span>
+<span style="display:block;text-align:center">![heroimage](hero_image.jpg)</span>
 
 I am Yiming Pan, a gameplay and UI programmer currently pursuing a Masters of Interactive Technology at SMU Guildhall with a focus on Software Development. My passion lies in collaborating with talented individuals to create unique and polished games. I thrive on designing architecture systems for specific and innovative gameplay mechanics, blending different genres to create captivating experiences. Additionally, I have a strong interest in developing versatile and user-friendly UI systems that cater to various game genres.
 
