@@ -1,1 +1,5 @@
-<a>Home</a> <a>Team Projects</a> <a>Personal Work</a>
+<div>
+<a class="button1">Home</a> 
+<a class="button2" >Team Projects</a> 
+<a class="button3">Personal Work</a>
+</div>
