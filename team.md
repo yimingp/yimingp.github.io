@@ -46,6 +46,8 @@ My role was being the solo programmer that handles everything programming or sof
 
 ### The Team
 
+From left to right : Nicholas, Me, Nick, Matt
+
 <span style="display:block;text-align:center">
 ![Legion Games Team](pictures/legiongames.jpg)
 </span>
