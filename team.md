@@ -38,6 +38,8 @@ My role was being the solo programmer that handles everything programming or sof
 4. Bug fixing rapidly whild building new features within 135 hours of development
 5. Integrating Unity to android platform, avoid and solve risks of performance issues
 
+<br><br><br><br><br>
+
 ### Trailer
 
 <span style="display:block;text-align:center">
