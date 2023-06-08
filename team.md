@@ -31,7 +31,7 @@ Lazer Lasso is a 2D platformer game designed for android tablets and made with U
 ### Trailer
 
 <span style="display:block;text-align:center">
-      <video width="320" height="240" src="videos/LazerLasso_Trailer.mp4" data-canonical-src="videos/LazerLasso_Trailer.mp4" controls="controls" muted="muted">
+      <video width="500" height="230" src="videos/LazerLasso_Trailer.mp4" data-canonical-src="videos/LazerLasso_Trailer.mp4" controls="controls" muted="muted">
 </span>
 
 ### The Team
