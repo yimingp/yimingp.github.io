@@ -63,7 +63,7 @@
 > 
 > link goes here
 
-## ErorsDesk
+## Eros's Desk
 > gif goes here
 > 
 > description goes here
