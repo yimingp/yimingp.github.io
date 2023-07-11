@@ -88,5 +88,5 @@ Eror's Desk, as the name suggests, this project is a simulation of the connectiv
 
 ### Link
 
-[Itch.io](https://yimingp.itch.io/erors-desk)
-[Github](https://github.com/yimingp/Eros-s-Desk)
+[Itch.io](https://yimingp.itch.io/erors-desk)  
+[Github](https://github.com/yimingp/Eros-s-Desk)  
