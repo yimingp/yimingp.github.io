@@ -66,7 +66,7 @@
 ## Eros's Desk
 
 <span style="display:block;text-align:center">
-![ErorsDesk Screenshot](pictures/erorsdesk_screenshot.jpg)
+![ErorsDesk Screenshot](pictures/erorsdesk_screenshot.png)
 </span>
 
 <span style="display:block;text-align:center">
