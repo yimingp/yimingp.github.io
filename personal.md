@@ -75,7 +75,7 @@
 
 ### Description
 
-Eror's Desk, as the name suggests, this project is a simulation of the connectivity of human relationship and how our life are entangled with one another in a top-down view resembles how it would look like at the office desk of the god of love, and it is created for Creative Computing Capstone at Southern Methodist University using Unity.
+Eros's Desk, as the name suggests, this project is a simulation of the connectivity of human relationship and how our life are entangled with one another in a top-down view resembles how it would look like at the office desk of the god of love, and it is created for Creative Computing Capstone at Southern Methodist University using Unity.
 
 1. Each unit(circle thing) are differentiate by their personality in the form of their color. 
 2. They will flow around in the space, and each interaction (bumping into one another) cause them to be affect by the other unit. 
