@@ -7,7 +7,15 @@
 </span>
 
 <span style="display:block;text-align:center">
+capture of during development phase
+</span>
+
+<span style="display:block;text-align:center">
 ![Pans Survivor Chess Gif](pictures/pans_survivor_chess_sprite.png)
+</span>
+
+<span style="display:block;text-align:center">
+self-drawn art assets
 </span>
 
 ### Description
