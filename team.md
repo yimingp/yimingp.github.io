@@ -2,6 +2,10 @@
 
 ## Seafeud
 
+<span style="display:block;text-align:center">
+![Seafeud Thumbnail](pictures/seafeud_thumbnail.png)
+</span>
+
 ### Overview
 
 SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. Players race on fish and dynamically change their “vehicle” stats by colliding and swapping with other fish on the course. While in typical racing games, players select their vehicle or customize their vehicle prior to starting the game, SeaFeud switches things up by defaulting everyone to a basic fish at the beginning of the race. Throughout the race, the player can swap to other fish, giving them a statistical edge. While on these fish, their stamina will run down before swapping back, encouraging the player to try different playstyles
@@ -31,6 +35,10 @@ This is a photo of the programmer team
 </span>
 
 ## Lazer Lasso
+
+<span style="display:block;text-align:center">
+![LazerLasso Poster](pictures/lazerlasso_poster.png)
+</span>
 
 ### Overview
 
