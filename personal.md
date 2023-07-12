@@ -7,7 +7,7 @@
 </span>
 
 <span style="display:block;text-align:center">
-capture of during development phase
+captured during development phase
 </span>
 
 <span style="display:block;text-align:center">
