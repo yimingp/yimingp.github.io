@@ -1,5 +1,3 @@
-<hr>
-
 # Personal work
 
 ## Pan's Survivor Chess

@@ -1,5 +1,3 @@
-<hr>
-
 # About Me
 
 <span style="display:block;text-align:center">![heroimage](hero_image.jpg)</span>
