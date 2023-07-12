@@ -1,3 +1,5 @@
+<hr>
+
 # Team Projects
 
 ## Seafeud
