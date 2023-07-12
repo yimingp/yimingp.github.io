@@ -6,6 +6,10 @@
 ![Pans Survivor Chess Gif](pictures/pans_survivor_chess.gif)
 </span>
 
+<span style="display:block;text-align:center">
+![Pans Survivor Chess Gif](pictures/pans_survivor_chess_sprite.png)
+</span>
+
 ### Description
 
 This project is made during the summer term of SMU Guidlhall program. Roughly 90 hours were put into this project while 4 other classes were going. The general idea of this game is that it is a blend of vampire survivor and auto chess. Players can buy units from the shop to defend the core and player lose if the core ran out of health. Units can upgrade if collected 3 of the same units, and can upgrade twice. Units are also have different tiers that higher tier units can only be acquire form higher tier shop
