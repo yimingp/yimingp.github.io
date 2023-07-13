@@ -26,7 +26,7 @@ SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. P
 
 ### The Team
 
-Size of roughly 60 people: 4 producer, 10 artist, 15 programmer and 31 level desingers
+Size of roughly 48 people: 4 producer, 10 artist, 15 programmer and 19 level desingers
 
 This is a photo of the programmer team
 
