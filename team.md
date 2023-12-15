@@ -29,7 +29,7 @@ Sun Slayer is a bow-and-arrow game where you play as Dhawa the guardian of the v
 ### Trailer
 
 <span style="display:block;text-align:center">
-![Seafeud Thumbnail](pictures/seafeud_thumbnail.png)
+      <video width="500" height="230" src="videos/sunslayer_trailer.mp4" data-canonical-src="videos/sunslayer_trailer.mp4" controls="controls" muted="muted">
 </span>
 
 ### The Team
@@ -41,7 +41,7 @@ Sun Slayer is a bow-and-arrow game where you play as Dhawa the guardian of the v
 ## Seafeud
 
 <span style="display:block;text-align:center">
-      <video width="500" height="230" src="videos/Seafeud_Trailer.mp4" data-canonical-src="videos/Seafeud_Trailer.mp4" controls="controls" muted="muted">
+![Seafeud Thumbnail](pictures/seafeud_thumbnail.png)
 </span>
 
 ### Overview
