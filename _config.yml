@@ -48,17 +48,27 @@ author:
 # youtube           : your_channel_name
 # keybase           : your_username
 
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
 
 ### Posts ###
 permalink: /blog/:title
 
-
 ### Collections ###
 collections:
-  projects:
+  team_projects:
     output: true
-    permalink: /projects/:name
-
+    permalink: /team_projects/:name
 
 ### Disqus ###
 disqus:
@@ -80,21 +90,6 @@ buymeacoffee:
   color: "#007bff"
   message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
   description: "Support me on Buy me a coffee!"
-
-
-### Defaults for collections ###
-defaults:
-  - scope:
-      path: ""
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
-
 
 ### Exclude from processing ###
 exclude:
