@@ -10,7 +10,7 @@
     transition: transform 400ms;
   
     &:hover:not(.post) {
-      transform: translateY(-8px);
+      transform: translateY(-30px);
       box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
     }
   }
