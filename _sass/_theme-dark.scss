@@ -50,9 +50,10 @@ $dark-900: #17191a;
     }
   }
 
-  .project.card:hover:not(.post) {
-    box-shadow: -2px 8px 40px -12px rgba(255, 255, 255, 0.1)
-}
+  .project.card {
+    &:hover:not(.post) {
+      box-shadow: -2px 8px 40px -12px rgba(255, 255, 255, 0.1)    }
+  }
 
   // Tables
   table:not(.highlight) {
