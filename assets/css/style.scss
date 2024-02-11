@@ -19,14 +19,3 @@ $box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
     width:100%;
     height:auto;  
   }
-  
-  .team-project-start {
-    display: grid;
-    grid:
-      "team-project-start-overview team-project-start-details" auto
-      / 65% 30%;
-    gap: 0px 5%;
-  }
-  
-  .team-project-start-overview { grid-area: team-project-start-overview; }
-  .team-project-start-details { grid-area: team-project-start-details; }

@@ -13,19 +13,15 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 
 ***
 
-<section class="team-proejct-start">
-  <div class="team-proejct-start-overview">
-  Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village. On the way to the sun god, the player will need hide in the shadow and avoid damage from the sun, defeat enemies, and solve puzzles. This game features two boss fights, and three types of enemies, four types of arrows, parkour system, fully animated mordern first person shooter combat system, diagetic UI, save/load game system, and aim assist system.
-  </div>
-  <div class="team-proejct-start-details">
-    <ul>
-        <li>Project time span: 6 months</li>
-        <li>Team size: 22 (7 programmers)</li>
-        <li>Platform: Steam, Epic Game Store</li>
-        <li>Engine: Unreal 5.3</li>
-    </ul>
-  </div>
-</section>
+- Duration:             6 months
+- Team size:            22 (7 programmers)
+- Platform:             Steam, Epic Game Store
+- Engine:               Unreal 5.3
+
+***
+
+Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village. On the way to the sun god, the player will need hide in the shadow and avoid damage from the sun, defeat enemies, and solve puzzles. This game features two boss fights, and three types of enemies, four types of arrows, parkour system, fully animated mordern first person shooter combat system, diagetic UI, save/load game system, and aim assist system. 
+
 ***
 
 ### Roles and Responsibility
