@@ -36,7 +36,7 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : Yiming (Frank) Pan
+  linkedin          : yimingp
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -52,7 +52,12 @@ author:
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "team_projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "personal_projects"
     values:
       layout: "page"
   - scope:
@@ -69,6 +74,9 @@ collections:
   team_projects:
     output: true
     permalink: /team_projects/:name
+  personal_projects:
+    output: true
+    permalink: /personal_projects/:name
 
 ### Disqus ###
 disqus:
