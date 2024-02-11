@@ -1,3 +1,3 @@
 # Hi there 👋
 
-[link to website](yimingp.github.io)
+[link to website](https://yimingp.github.io)
