@@ -11,7 +11,7 @@
   
     &:hover:not(.post) {
       transform: translateY(-8px);
-      @include themed(box-shadow, $box-shadow-black, $box-shadow-white);
+      box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
     }
   }
   
