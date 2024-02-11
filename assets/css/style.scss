@@ -10,3 +10,13 @@ $box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
       @include themed(box-shadow, $box-shadow-dark, $box-shadow-light);
     }
   }
+
+  .video-container{
+    width: 100%;
+  }
+  
+  .video-container video{
+    width:100%;
+    height:auto;  
+  }
+  

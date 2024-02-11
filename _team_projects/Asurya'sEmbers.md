@@ -7,10 +7,7 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 
 # Asurya's Embers
 
-<video autoplay controls loop muted>
-	<source src="../videos/sunslayer_trailer.mp4" type="video/mp4">
-    Your browser does not support HTML5 video.
-</video>
+{% include elements/video.html path="../videos/sunslayer_trailer.mp4" %}
 
 - Project time span: 6 months
 - Team size: 22 (7 programmers)
