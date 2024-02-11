@@ -20,3 +20,9 @@ $box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
     height:auto;  
   }
   
+  .team-proejct-start {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
