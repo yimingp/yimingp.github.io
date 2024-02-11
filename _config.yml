@@ -18,6 +18,10 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - old pages/aboutMe.md
+  - old pages/backupOld.html
+  - old pages/personal.md
+  - old pages/team.md
 
 ### Author Info ###
 author:
