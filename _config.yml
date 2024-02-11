@@ -22,6 +22,7 @@ nav_exclude:                                            # The following paths ar
   - old pages/backupOld.html
   - old pages/personal.md
   - old pages/team.md
+  - pages/blog.html
 
 ### Author Info ###
 author:
