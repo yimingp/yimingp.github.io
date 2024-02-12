@@ -9,7 +9,7 @@ description: SeaFeud is an underwater arcade racing game where players ride on a
 
 ***
 
-{% include elements/video.html path="../videos/sunslayer_trailer.mp4" %}
+{% include elements/video.html path="../videos/Seafeud_Trailer.mp4" %}
 
 ***
 
