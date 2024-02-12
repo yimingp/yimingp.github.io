@@ -2,6 +2,12 @@
 ---
 @import "portfolYOU";
 
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
 $box-shadow-dark: -2px 8px 40px -12px rgba(0,0,0,0.24);
 $box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
 
