@@ -10,6 +10,7 @@
 
 $box-shadow-dark: -2px 8px 40px -12px rgba(0,0,0,0.24);
 $box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
+$on-laptop:        800px !default;
 
 .project.card {
     &:hover:not(.post) {
@@ -65,14 +66,14 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     transform: translateY(0);
   }
   
-  html[data-theme="light"] {
+  [data-theme="light"] {
     .click-to-top {
       background-color: $click-to-top-light-background-color;
       color: $click-to-top-light-color;
     }
   }
   
-  html[data-theme="dark"] {
+  [data-theme="dark"] {
     .click-to-top {
       background-color: $click-to-top-dark-background-color;
       color: $click-to-top-dark-color;
