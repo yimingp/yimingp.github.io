@@ -84,6 +84,7 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     text-decoration: none;
     font-weight: 700;
     position: relative;
+    @include themed(color, $text-black, $text-white);
   }
   
   p > a::before {
