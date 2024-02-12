@@ -14,7 +14,7 @@ description: SeaFeud is an underwater arcade racing game where players ride on a
 ***
 
 <div style="text-align: center;">
-[Steam Store Page](https://store.steampowered.com/app/2322020/SeaFeud/)
+    <p><a href="https://store.steampowered.com/app/2322020/SeaFeud/">Steam Store Page</a></p>
 </div>
 
 ***
