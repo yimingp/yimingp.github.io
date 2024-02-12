@@ -23,6 +23,7 @@ description: SeaFeud is an underwater arcade racing game where players ride on a
 - Team size:            48 (14 programmers)
 - Platform:             Steam
 - Engine:               Unreal 5.2
+- Time:                 January 2023 - May 2023
 
 ***
 
