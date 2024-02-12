@@ -13,7 +13,7 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 
 ***
 
-[![steam page](../pictures/aa_steam_link.png 'Asurya's Embers Store Page')](https://store.steampowered.com/app/2491710/Asuryas_Embers/)
+[Steam Store Page](https://store.steampowered.com/app/2491710/Asuryas_Embers/)
 
 
 ***
