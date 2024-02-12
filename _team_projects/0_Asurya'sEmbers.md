@@ -23,7 +23,7 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 - Team size:            22 (7 programmers)
 - Platform:             Steam, Epic Game Store
 - Engine:               Unreal 5.3
-- Dates:                June 2023 - Decemeber 2023
+- Time:                 June 2023 - Decemeber 2023
 
 ***
 
