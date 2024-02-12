@@ -1,6 +1,6 @@
 ---
 name: Doomenstein
-tools: [C++, Custom Engine, FPS]
+tools: [C++, Custom Engine, FPS, Directx11]
 image: 
 description:  Doom + Wolfstein
 ---
