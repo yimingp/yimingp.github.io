@@ -80,14 +80,13 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     }
   }
   
-  a {
+  p > a {
     text-decoration: none;
-    color: #18272F;
     font-weight: 700;
     position: relative;
   }
   
-  a::before {
+  p > a::before {
     content: '';
     background-color: hsla(196, 61%, 58%, .75);
     position: absolute;
@@ -99,7 +98,7 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     transition: all .3s ease-in-out;
   }
   
-  a:hover::before {
+  p > a:hover::before {
     bottom: 0;
     height: 100%;
   }
