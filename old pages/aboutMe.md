@@ -8,4 +8,3 @@ Outside of game development, I enjoy engaging in sports like tennis, ping-pong, 
 
 With a solid foundation in gameplay and UI programming, I am driven to achieve new milestones in my career. As I continue to grow, I aspire to work on projects that challenge me and allow me to specialize in specific aspects of gameplay or UI programming. I am always eager to learn and contribute to the game development industry.  
 
-{% include about/timeline.html %}

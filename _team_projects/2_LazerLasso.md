@@ -13,10 +13,10 @@ description: Lazer Lasso is a 2D platformer game designed for android tablets an
 
 ***
 
-- Duration:             `2 months`
-- Team size:            `4 (1 programmer)`
-- Platform:             `Android Tablet`
-- Engine:               `Unity 2022`
+- Duration:             2 months
+- Team size:            4 (1 programmer)
+- Platform:             Android Tablet
+- Engine:               Unity 2022
 
 ***
 

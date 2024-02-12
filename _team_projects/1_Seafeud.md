@@ -13,14 +13,16 @@ description: SeaFeud is an underwater arcade racing game where players ride on a
 
 ***
 
+<div style="text-align: center;">
 [Steam Store Page](https://store.steampowered.com/app/2322020/SeaFeud/)
+</div>
 
 ***
 
-- Duration:             `3 months`
-- Team size:            `48 (14 programmers)`
-- Platform:             `Steam`
-- Engine:               `Unreal 5.2`
+- Duration:             3 months
+- Team size:            48 (14 programmers)
+- Platform:             Steam
+- Engine:               Unreal 5.2
 
 ***
 
