@@ -40,4 +40,4 @@ SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. P
 
 ### The Team (Programmers)
 
-![Seafeud Programmers](../pictures/seafeud_programmers.webp)
+![Seafeud Programmers](../pictures/seafeud_programmers.jpeg)
