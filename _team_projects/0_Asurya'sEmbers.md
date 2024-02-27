@@ -1,6 +1,6 @@
 ---
 name: Asurya's Embers
-tools: [Unreal 5.3, C++, FPS, Action]
+tools: [Unreal 5.3, C++, FPS, Action, Steam, Epic Game Store]
 image: ../pictures/sunslayer_thumbnail.png
 description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village.
 ---

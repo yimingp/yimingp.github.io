@@ -1,6 +1,6 @@
 ---
 name: Pan's Survivor Chess
-tools: [C++, Custom Engine, Gameplay, Art, Strategy, Auto-battler]
+tools: [C++, Custom Engine, Gameplay, Art, Strategy, Auto-battler, Steam]
 image: ../pictures/pans_survivor_chess.gif
 description:  A Auto-battler and vampire survivor-like game
 ---

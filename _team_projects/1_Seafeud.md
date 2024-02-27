@@ -1,6 +1,6 @@
 ---
 name: Seafeud
-tools: [Unreal 5.2, C++, Arcade Racer]
+tools: [Unreal 5.2, C++, Arcade Racer, Steam]
 image: ../pictures/seafeud_thumbnail.png
 description: SeaFeud is an underwater arcade racing game where players ride on a variety of fast fish. Swap fish mid-race to dynamically change your abilities, items, and stats. With eight different characters and three different courses to select from, players can have endless fun racing the seas.
 ---
