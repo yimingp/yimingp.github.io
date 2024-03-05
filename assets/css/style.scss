@@ -103,3 +103,27 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     bottom: 0;
     height: 100%;
   }
+
+.floating-widget {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.circle {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.circle:hover {
+    background-color: #555;
+}

@@ -1,0 +1,22 @@
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1Elements = document.querySelectorAll('h1');
+        const floatingWidget = document.getElementById('floatingWidget');
+    
+        h1Elements.forEach((h1, index) => {
+            if (!h1.id) {
+                h1.id = 'section' + index; // Assign an ID if the h1 doesn't have one
+            }
+            
+            const circle = document.createElement('div');
+            circle.className = 'circle';
+            circle.dataset.target = h1.id;
+            circle.textContent = 'Section ' + (index + 1); // Change this to any text you want for each circle
+            circle.addEventListener('click', function() {
+                document.getElementById(this.dataset.target).scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+    
+            floatingWidget.appendChild(circle);
+        });
+    });
+</script>

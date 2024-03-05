@@ -12,16 +12,19 @@
 
 <body class="h-100 d-flex flex-column">
 
-    {%- include click-to-top.html -%}
+  {%- include click-to-top.html -%}
+  {%- include section-widget.html -%}
 
   <main class="flex-shrink-0 container mt-5">
     {% include navbar.html %}
     {{ content }}
   </main>
-  {% include footer.html %}
 
+  {% include footer.html %}
   {% include scripts.html %}
 
 </body>
 
+  {% include section-widget-script.html %}
+  
 </html>
