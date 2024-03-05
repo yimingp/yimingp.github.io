@@ -1,3 +1,5 @@
+---
+---
 @import "portfolYOU";
 
 @mixin media-query($device) {
@@ -108,18 +110,6 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;
-
-        /* Add a pseudo-element for the line */
-    &::before {
-        content: '';
-        position: absolute;
-        left: 50%; /* Center the line */
-        top: 0;
-        bottom: 0;
-        width: 1px; /* Line thickness */
-        background-color: #333; /* Line color */
-        z-index: -1;
-    }
 }
 
 .circle {
@@ -178,10 +168,4 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 
 .circle:hover .hover-text {
     opacity: 1;
-}
-
-@media (max-width: 600px) {
-  .floating-widget {
-      display: none;
-  }
 }
