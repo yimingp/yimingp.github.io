@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact Me
+title: Contact
 permalink: /contact/
-weight: 5
+weight: 4
 ---
