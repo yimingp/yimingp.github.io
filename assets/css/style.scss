@@ -139,7 +139,6 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 
 
 .circle .hover-text {
-    visibility: hidden;
     width: 120px;
     background-color: transparent;
     color: white;
@@ -149,25 +148,24 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     z-index: 1;
     left: 200%;
     top: -9.25px;
-    opacity: 0;
+    opacity: 0.5;
     transition: opacity 0.3s;
 }
 
 
 [data-theme="light"] {
   .circle .hover-text   {
-    background-color: $text-black;
+    color: $text-black;
   }
 }
 
 [data-theme="dark"] {
   .circle .hover-text  {
-    background-color: $text-white;
+    color: $text-white;
   }
 }
 
 
 .circle:hover .hover-text {
-    visibility: visible;
     opacity: 1;
 }
