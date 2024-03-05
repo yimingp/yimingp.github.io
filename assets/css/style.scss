@@ -104,7 +104,7 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     height: 100%;
   }
 
-.floating-widget {
+  .floating-widget {
     position: fixed;
     left: 20px;
     top: 50%;
@@ -113,6 +113,7 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 }
 
 .circle {
+    position: relative;
     margin: 10px;
     width: 30px;
     height: 30px;
@@ -124,6 +125,24 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
     cursor: pointer;
 }
 
-.circle:hover {
-    background-color: #555;
+.circle .hover-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.circle:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
 }

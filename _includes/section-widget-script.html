@@ -1,21 +1,32 @@
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const h1Elements = document.querySelectorAll('h1');
+    document.addEventListener("DOMContentLoaded", function ()
+    {
+        const sections = document.querySelectorAll('.section');
         const floatingWidget = document.getElementById('floatingWidget');
-    
-        h1Elements.forEach((h1, index) => {
-            if (!h1.id) {
-                h1.id = 'section' + index; // Assign an ID if the h1 doesn't have one
+
+        sections.forEach((section, index) =>
+        {
+            if (!section.id)
+            {
+                section.id = 'section' + index; // Assign an ID if the h1 doesn't have one
             }
-            
+
             const circle = document.createElement('div');
             circle.className = 'circle';
-            circle.dataset.target = h1.id;
+            circle.dataset.target = section.id;
             circle.textContent = ''; // Change this to any text you want for each circle
-            circle.addEventListener('click', function() {
+            circle.setAttribute('data-target', section.id);
+
+            circle.addEventListener('click', function ()
+            {
                 document.getElementById(this.dataset.target).scrollIntoView({ behavior: 'smooth', block: 'start' });
             });
-    
+
+            const textSpan = document.createElement('span');
+            textSpan.className = 'hover-text';
+            textSpan.textContent = '' + index;
+            circle.appendChild(textSpan);
+
             floatingWidget.appendChild(circle);
         });
     });
