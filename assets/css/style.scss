@@ -1,5 +1,3 @@
----
----
 @import "portfolYOU";
 
 @mixin media-query($device) {
@@ -186,3 +184,4 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
   .floating-widget {
       display: none;
   }
+}
