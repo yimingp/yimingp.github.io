@@ -106,7 +106,7 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 
 .floating-widget {
     position: fixed;
-    right: 20px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1000;

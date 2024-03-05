@@ -5,11 +5,19 @@ image: ../pictures/sunslayer_thumbnail.png
 description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village.
 ---
 
+<div class="section Top">
+
 # Asurya's Embers
+
+</div>
 
 ***
 
+<div class="section Trailer">
+
 {% include elements/video.html path="../videos/sunslayer_trailer.mp4" %}
+
+</div>
 
 ***
 
