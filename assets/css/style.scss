@@ -169,3 +169,9 @@ $click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 .circle:hover .hover-text {
     opacity: 1;
 }
+
+@media (max-width: 600px) {
+  .floating-widget {
+      display: none;
+  }
+}
