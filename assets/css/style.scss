@@ -1,4 +1,6 @@
---- --- @import "portfolYOU";
+---
+---
+@import "portfolYOU";
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -6,163 +8,133 @@
   }
 }
 
-$box-shadow-dark: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
-$box-shadow-light: -2px 8px 40px -12px rgba(255, 255, 255, 0.1);
-$on-laptop: 800px !default;
+$box-shadow-dark: -2px 8px 40px -12px rgba(0,0,0,0.24);
+$box-shadow-light: -2px 8px 40px -12px rgba(255,255,255,0.1);
+$on-laptop:        800px !default;
 
 .project.card {
-  &:hover:not(.post) {
-    @include themed(box-shadow, $box-shadow-dark, $box-shadow-light);
+    &:hover:not(.post) {
+      @include themed(box-shadow, $box-shadow-dark, $box-shadow-light);
+    }
   }
-}
 
-.video-container {
-  width: 100%;
-}
-
-.video-container video {
-  width: 100%;
-  height: auto;
-}
-
-// Click to top theme
-$click-to-top-light-background-color: {
-    {
-    site.click_to_top.light.background_color | default: "white"
+  .video-container{
+    width: 100%;
   }
-}
-
-;
-
-$click-to-top-light-color: {
-    {
-    site.click_to_top.light.color | default: "#454545"
+  
+  .video-container video{
+    width:100%;
+    height:auto;  
   }
-}
 
-;
+  // Click to top theme
+$click-to-top-light-background-color: {{ site.click_to_top.light.background_color | default: "white" }};
+$click-to-top-light-color: {{ site.click_to_top.light.color | default: "#454545" }};
+$click-to-top-dark-background-color: {{ site.click_to_top.dark.background_color | default: "#34323d" }};
+$click-to-top-dark-color: {{ site.click_to_top.dark.color | default: "#bbb" }};
 
-$click-to-top-dark-background-color: {
-    {
-    site.click_to_top.dark.background_color | default: "#34323d"
-  }
-}
-
-;
-
-$click-to-top-dark-color: {
-    {
-    site.click_to_top.dark.color | default: "#bbb"
-  }
-}
-
-;
-
-.click-to-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  width: 64px;
-  height: 64px;
-  border-radius: 32px;
-  right: 60px;
-  bottom: 48px;
-  cursor: pointer;
-  opacity: 0;
-  transform: translateY(10px);
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
-  font-size: 24px;
-  user-select: none;
-  transition: 0.3s;
-  z-index: 10;
-
-  @include media-query($on-laptop) {
-    width: 48px;
-    height: 48px;
-    border-radius: 24px;
-    right: 35px;
-    font-size: 20px;
-  }
-}
-
-.click-to-top.show {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-[data-theme="light"] {
   .click-to-top {
-    background-color: $click-to-top-light-background-color;
-    color: $click-to-top-light-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    right: 60px;
+    bottom: 48px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(10px);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    font-size: 24px;
+    user-select: none;
+    transition: 0.3s;
+    z-index: 10;
+  
+    @include media-query($on-laptop) {
+      width: 48px;
+      height: 48px;
+      border-radius: 24px;
+      right: 35px;
+      font-size: 20px;
+    }
   }
-}
-
-[data-theme="dark"] {
-  .click-to-top {
-    background-color: $click-to-top-dark-background-color;
-    color: $click-to-top-dark-color;
+  
+  .click-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
   }
-}
-
-p>a {
-  text-decoration: none;
-  font-weight: 700;
-  position: relative;
-  @include themed(color, $text-black, $text-white);
-}
-
-p>a::before {
-  content: '';
-  background-color: hsla(196, 61%, 58%, .75);
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  width: 100%;
-  height: 15%;
-  z-index: -1;
-  transition: all .3s ease-in-out;
-}
-
-p>a:hover::before {
-  bottom: 0;
-  height: 100%;
-}
-
-.floating-widget {
-  position: fixed;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1000;
-
-  /* Add a pseudo-element for the line */
-  &::before {
+  
+  [data-theme="light"] {
+    .click-to-top {
+      background-color: $click-to-top-light-background-color;
+      color: $click-to-top-light-color;
+    }
+  }
+  
+  [data-theme="dark"] {
+    .click-to-top {
+      background-color: $click-to-top-dark-background-color;
+      color: $click-to-top-dark-color;
+    }
+  }
+  
+  p > a {
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+    @include themed(color, $text-black, $text-white);
+  }
+  
+  p > a::before {
     content: '';
+    background-color: hsla(196, 61%, 58%, .75);
     position: absolute;
-    left: 50%;
-    /* Center the line */
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    /* Line thickness */
-    background-color: #333;
-    /* Line color */
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 15%;
     z-index: -1;
+    transition: all .3s ease-in-out;
   }
+  
+  p > a:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .floating-widget {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+        /* Add a pseudo-element for the line */
+    &::before {
+        content: '';
+        position: absolute;
+        left: 50%; /* Center the line */
+        top: 0;
+        bottom: 0;
+        width: 1px; /* Line thickness */
+        background-color: #333; /* Line color */
+        z-index: -1;
+    }
 }
 
 .circle {
-  position: relative;
-  margin: 10px;
-  width: 12px;
-  height: 12px;
-  background-color: #333;
-  border-radius: 50%;
-  color: white;
-  text-align: center;
-  line-height: 30px;
-  cursor: pointer;
+    position: relative;
+    margin: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
 }
 
 [data-theme="light"] {
@@ -179,38 +151,38 @@ p>a:hover::before {
 
 
 .circle .hover-text {
-  width: 120px;
-  background-color: transparent;
-  color: white;
-  text-align: left;
-  border-radius: 0;
-  position: relative;
-  z-index: 1;
-  left: 200%;
-  top: -9.25px;
-  opacity: 0.5;
-  transition: opacity 0.3s;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    border-radius: 0;
+    position: relative;
+    z-index: 1;
+    left: 200%;
+    top: -9.25px;
+    opacity: 0.5;
+    transition: opacity 0.3s;
 }
 
 
 [data-theme="light"] {
-  .circle .hover-text {
+  .circle .hover-text   {
     color: $text-black;
   }
 }
 
 [data-theme="dark"] {
-  .circle .hover-text {
+  .circle .hover-text  {
     color: $text-white;
   }
 }
 
+
 .circle:hover .hover-text {
-  opacity: 1;
+    opacity: 1;
 }
 
 @media (max-width: 600px) {
   .floating-widget {
       display: none;
   }
-}
