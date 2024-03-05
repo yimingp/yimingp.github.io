@@ -1,11 +1,11 @@
 ---
-name: Pan's Card Game
+name: Pan's Card
 tools: [C++, Custom Engine, UI, Networking, System Architecture, Gameplay, Scripting, Lua]
 image: 
 description:  A Hearthstone-like game that expose card creation to the players via in-game card maker GUI
 ---
 
-# Pan's Card Game
+# Pan's Card
 
 ***
 
