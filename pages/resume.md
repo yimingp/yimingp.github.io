@@ -8,14 +8,9 @@ weight: 3
 <button id="buttonA">English</button>
 <button id="buttonB">中文</button>
 
-<div id="objectA" style="display:none;">
-    <object data="../assets/path/to/document.pdf" width="1000" height="1000" type='application/pdf'></object>
-</div>
+<object id="objectA" data="../assets/path/to/document.pdf" width="1000" height="1000" type='application/pdf'></object>
 
-<div id="objectB" style="display:none;">
-    <object data="../assets/path/to/潘逸铭简历（中）.pdf" width="1000" height="1000" type='application/pdf'></object>
-</div>
-
+<object id="objectB" style="display:none;" data="../assets/path/to/潘逸铭简历（中）.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 <style>
 #buttonA, #buttonB {
