@@ -5,13 +5,11 @@ image: ../pictures/sunslayer_thumbnail.png
 description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village.
 ---
 
-<div class="section Top">
-
 # Asurya's Embers
 
-</div>
-
 ***
+
+# Trailer
 
 <div class="section Trailer">
 
@@ -35,11 +33,13 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 
 ***
 
+# Overview
+
 Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of the village and trying to defeat the Sun God to save the village. On the way to the sun god, the player will need hide in the shadow and avoid damage from the sun, defeat enemies, and solve puzzles. This game features two boss fights, and three types of enemies, four types of arrows, parkour system, fully animated mordern first person shooter combat system, diagetic UI, save/load game system, and aim assist system. 
 
 ***
 
-### Roles and Responsibility
+# Roles and Responsibility
 
 1. Boss fight system for the dragon including: pathing, animation, AI, UI
 2. Bow-and-arrow implementation such as camera management, animation FSM, input system, player movement
@@ -51,6 +51,6 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 
 ***
 
-### The Team
+# The Team
 
 ![Seafeud Programmers](../pictures/sunslayer_family.webp)

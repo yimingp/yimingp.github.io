@@ -1,25 +1,22 @@
 <script>
-    document.addEventListener("DOMContentLoaded", function ()
-    {
-        const sections = document.querySelectorAll('.section');
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1Elements = document.querySelectorAll('h1');
         const floatingWidget = document.getElementById('floatingWidget');
-
-        sections.forEach((h1, index) =>
-        {
-            // Create a circle for each section
+    
+        h1Elements.forEach((h1, index) => {
+            if (!h1.id) {
+                h1.id = 'section' + index; // Assign an ID if the h1 doesn't have one
+            }
+            
             const circle = document.createElement('div');
             circle.className = 'circle';
-            circle.textContent = section.classList[1]; // Assumes second class is the title
-            circle.setAttribute('data-target', section.id);
-
-            // Add click event to circle
-            circle.addEventListener('click', function ()
-            {
-                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            circle.dataset.target = h1.id;
+            circle.textContent = ''; // Change this to any text you want for each circle
+            circle.addEventListener('click', function() {
+                document.getElementById(this.dataset.target).scrollIntoView({ behavior: 'smooth', block: 'start' });
             });
-
-            // Append circle to the widget
-            widget.appendChild(circle);
+    
+            floatingWidget.appendChild(circle);
         });
     });
 </script>
