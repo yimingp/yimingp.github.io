@@ -1,5 +1,5 @@
 ---
-name: Pan's Card
+name: Pan's Card (WIP)
 tools: [C++, Custom Engine, UI, Networking, System Architecture, Gameplay, Scripting, Lua]
 image: ../pictures/pc_ui.gif
 description:  A Hearthstone-like game that expose card creation to the players via in-game card maker GUI

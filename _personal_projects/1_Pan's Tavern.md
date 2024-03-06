@@ -1,5 +1,5 @@
 ---
-name: Pan's Tavern
+name: Pan's Tavern (WIP)
 tools: [C++, Custom Engine, Gameplay, Networking, Co-op, Management]
 image: ../pictures/pt_poct.gif
 description:  A Overcooked/PlateUp-like game that takes place in the world of DND
