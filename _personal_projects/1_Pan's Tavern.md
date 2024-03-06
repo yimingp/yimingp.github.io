@@ -1,7 +1,7 @@
 ---
 name: Pan's Tavern
 tools: [C++, Custom Engine, Gameplay, Networking, Co-op, Management]
-image: 
+image: ../pictures/pt_poct.gif
 description:  A Overcooked/PlateUp-like game that takes place in the world of DND
 ---
 
@@ -9,11 +9,15 @@ description:  A Overcooked/PlateUp-like game that takes place in the world of DN
 
 ***
 
-Video coming...
+![PT POCT](../pictures/pt_poct.gif)
+
+<div style="text-align: center;">
+    POCT capture
+</div>
 
 ***
 
-Steam page coming...
+WIP project
 
 ***
 
@@ -26,14 +30,12 @@ Steam page coming...
 
 ***
 
-Overview coming...
+Pan's Tavern is a PlateUp-like game where you run a restraunt with your friends and serve incoming customers until overwhelmed. 
 
 ***
 
 ### Key features
 
-Coming...
-
-***
-
-Gifs coming...
+1. Gameplay like PlateUp
+2. UDP networking with server authoritative and client-side prediction and rollback with dead reckoning
+3. Able to pick race and classes like DND
