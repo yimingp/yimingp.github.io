@@ -84,6 +84,18 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 
 ***
 
+<div class="section Player Control"></div>
+
+![AE Player AnimBP](../pictures/ae_player_anim_bp.webp)
+
+- Help building the state machine for player control
+
+{% include elements/video.html path="../videos/ae_valut.mp4" %}
+
+- Set up initial tech design of the valuting system
+
+***
+
 <div class="section Photo"></div>
 
 ### The Team
