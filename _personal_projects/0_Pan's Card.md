@@ -26,8 +26,6 @@ WIP Project
 
 ***
 
-<div class="section Overview"></div>
-
 Pan's Card is a hearthstone-like project where you can duel with other player over LAN and customize cards with Lua. 
 
 ***
