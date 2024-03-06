@@ -9,26 +9,28 @@ weight: 4
 
   {%- assign unfocused_color = "6c757d" -%}
 
+<ul class="contact-list">
+
   {% for account in site.author %}
 
-    <ul class="contact-list">
 
     {%- assign service_name = account[0] -%}
     {%- assign service_data = site.data.social-media[service_name] -%}
     {%- if service_data -%}    
-    <li>
+    <li class="contact-list-item">
     <a class="social mx-1"  href="{{ service_data.url }}{{ account[1] }}"
        style="color: #{{ unfocused_color }}"
        onMouseOver="this.style.color='#{{ service_data.color }}'"
        onMouseOut="this.style.color='#{{ unfocused_color }}'">
       <i class="{{ service_data.icon }} fa-3x"></i>
     </a>
+    <p>{{ account[1] }}</p>
     </li>
     {%- endif -%}
-
-    </ul>
   
   {% endfor %}
+
+</ul>
 
 </div>
 
@@ -36,6 +38,14 @@ weight: 4
 
 .contact-list{
     list-style-type: none;
+}
+
+.contact-list-item{
+    padding:2.5%;
+}
+
+.contact-list-item p{
+    display:inline;
 }
 
 </style>
