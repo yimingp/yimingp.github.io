@@ -1,7 +1,7 @@
 
 <div class="card-columns m-3 mt-5">
     <!-- Local Projects -->
-    {% for project in site.team_projects %}
+    {% for project in site.team_projects | sort: 'weight' %}
   
       {%- assign project_type  = "local" -%}
       {%- assign project_id    = project.name | slugify -%}

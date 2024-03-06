@@ -3,6 +3,7 @@ name: Custom Engine
 tools: [C++]
 image: ../pictures/ce_demo.gif
 description:  This is the custom engine I made
+weight: 0
 ---
 
 # Custom Engine

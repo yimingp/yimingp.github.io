@@ -35,7 +35,7 @@
   {% endfor %}
 
   <!-- Local Projects -->
-  {% for project in site.personal_projects %}
+  {% for project in site.personal_projects | sort: 'weight' %}
 
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}

@@ -3,6 +3,7 @@ name: Doomenstein
 tools: [C++, Custom Engine, FPS, Directx11]
 image: ../pictures/doom_demo.gif
 description:  Doom + Wolfstein
+weight: 1
 ---
 
 # Doomenstein

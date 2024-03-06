@@ -3,6 +3,7 @@ name: Starship
 tools: [C++, Custom Engine, OpenGL]
 image: ../pictures/ss_demo.gif
 description:  2D Space shooter
+weight: 8
 ---
 
 # Starship

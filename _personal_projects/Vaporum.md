@@ -2,7 +2,8 @@
 name: Vaporum
 tools: [C++, Custom Engine, Networking, Strategy]
 image: ../pictures/vp_demo.gif
-description:  
+description:  3D Turn based strategy game over LAN
+weight: 6
 ---
 
 # Vaporum

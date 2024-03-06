@@ -3,6 +3,7 @@ name: Libra
 tools: [C++, Custom Engine, Distance Field]
 image: ../pictures/libra_demo.gif
 description:  2D Tank Game
+weight : 3
 ---
 
 # Libra
