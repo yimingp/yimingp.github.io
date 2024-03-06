@@ -10,25 +10,26 @@
             </div>
         </div>
 
-        <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+        <p id="description" class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+
+        <div id="erorsdesk" style="display:none">
+            {% include elements/video.html path="../videos/erorsdesk.mp4" %}
+        </div>
 
     </div>
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var animatedImage = document.getElementById('hero');
-        animatedImage.addEventListener('animationend', function () {
-            setTimeout(function () {
-                animatedImage.classList.add('fadeOut'); // Using animate.css class for fade out
-            }, 2000); // Set the timeout for 2 seconds
-        });
-    });
+
+// Set a timeout to hide the image and paragraph after 2 seconds
+setTimeout(function () {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('description').style.display = 'none';
+    document.getElementById('erorsdesk').style.display = 'block';
+}, 2000); // 2000 milliseconds = 2 seconds
+
 </script>
 
 <style>
-    #hero{
-        animation-duration: 1s;
-        /* Adjust the duration of fade out */
-    }
+
 </style>
