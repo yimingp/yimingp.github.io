@@ -24,7 +24,7 @@ weight: 4
        onMouseOut="this.style.color='#{{ unfocused_color }}'">
       <i class="{{ service_data.icon }} fa-3x"></i>
     </a>
-    <button class=".button-55" role="button" onclick="location.href={{ service_data.url }}{{ account[1] }};" >{{ account[1] }}</button>
+    <button class="button-55" role="button" onclick="window.location.href='{{ service_data.url }}{{ account[1] }}';" >{{ account[1] }}</button>
     </li>
     {%- endif -%}
   
@@ -87,6 +87,5 @@ weight: 4
 .button-55:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
-
 
 </style>
