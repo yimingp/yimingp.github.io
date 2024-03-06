@@ -1,7 +1,7 @@
 ---
 name: Custom Engine
 tools: [C++]
-image: 
+image: ../pictures/ce_demo.gif
 description:  This is the custom engine I made
 ---
 
@@ -33,7 +33,7 @@ This engine is developed over the course of two years through my learning times 
 
 ***
 
-
+{% include elements/video.html path="../videos/ce_math.mp4" %}
 
 <div style="text-align: center;">
     Keyframe animation editor
