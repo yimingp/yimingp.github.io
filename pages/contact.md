@@ -5,23 +5,37 @@ permalink: /contact/
 weight: 4
 ---
 
-<div class="container-fluid justify-content-center">
+<div class="">
 
   {%- assign unfocused_color = "6c757d" -%}
 
   {% for account in site.author %}
 
+    <ul class="contact-list">
+
     {%- assign service_name = account[0] -%}
     {%- assign service_data = site.data.social-media[service_name] -%}
     {%- if service_data -%}    
+    <li>
     <a class="social mx-1"  href="{{ service_data.url }}{{ account[1] }}"
        style="color: #{{ unfocused_color }}"
        onMouseOver="this.style.color='#{{ service_data.color }}'"
        onMouseOut="this.style.color='#{{ unfocused_color }}'">
-      <i class="{{ service_data.icon }} fa-1x"></i>
+      <i class="{{ service_data.icon }} fa-3x"></i>
     </a>
+    </li>
     {%- endif -%}
+
+    </ul>
   
   {% endfor %}
 
 </div>
+
+<style>
+
+.contact-list{
+    list-style-type: none;
+}
+
+</style>
