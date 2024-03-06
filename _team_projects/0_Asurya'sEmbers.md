@@ -9,11 +9,9 @@ description: Asurya's Embers is a bow-and-arrow game where you play as Dhawa the
 
 ***
 
-<div class="section Trailer">
+<div class="section Trailer"></div>
 
 {% include elements/video.html path="../videos/sunslayer_trailer.mp4" %}
-
-</div>
 
 ***
 
@@ -37,8 +35,6 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 
 ***
 
-<div class="section Roles"></div>
-
 ### Roles and Responsibility
 
 1. Boss fight system for the dragon including: pathing, animation, AI, UI
@@ -50,6 +46,45 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 7. Level small puzzle implementations
 
 ***
+
+<div class="section Dragon"></div>
+
+![AE Dragon](../pictures/ae_dragon.gif)
+
+1. Made with blueprint
+2. 3 stages of boss fight that use different beahviour patterns
+3. Created triggers and splines for boss designer to use in the editor
+4. Used Control rig and Animation blueprint for animation
+5. Used Niagara to bring particle effects assets to dragon
+6. Used Behaivour Tree for AI 
+
+***
+
+<div class="section UI"></div>
+
+{% include elements/video.html path="../videos/ae_ui.mp4" %}
+
+1. Implementing UI components from design
+2. Solve input can not be recieved bug in UMG
+3. Solve focus issues with UMG
+4. Help build responsive UI icons to different controls scheme (keyboard/controller)
+
+***
+
+<div class="section AI"></div>
+
+![AE Behaviour Tree](../pictures/ae_behaviour_tree.webp)
+
+- Implementing Dragon Boss AI with behaviour tree
+
+![AE Enemy Base](../pictures/ae_enemy_base.png)
+
+- Build architecture of Enemy class
+- Finialize enemy classes APIs
+
+***
+
+<div class="section Photo"></div>
 
 ### The Team
 
