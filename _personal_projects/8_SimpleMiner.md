@@ -9,7 +9,7 @@ description:  Minecraft-like game
 
 ***
 
-![Gameplay](../pictures/ss_gp.gif)
+{% include elements/video.html path="../videos/sm_gp.mp4" %}
 
 ***
 
