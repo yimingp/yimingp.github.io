@@ -42,13 +42,15 @@ weight: 4
 
 .contact-list-item{
     padding:2.5%;
+    display:flex;
 }
 
-.contact-list-item p{
-    display:inline;
+.contact-list-item a{
+    padding-right:5%;
 }
 
-.button-55 {
+.button-55 {    
+  vertical-align:middle;
   align-self: center;
   background-color: #fff;
   background-image: none;
