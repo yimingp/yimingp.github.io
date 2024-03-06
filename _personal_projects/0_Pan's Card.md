@@ -1,7 +1,7 @@
 ---
 name: Pan's Card
 tools: [C++, Custom Engine, UI, Networking, System Architecture, Gameplay, Scripting, Lua]
-image: 
+image: ../pictures/pc_ui.gif
 description:  A Hearthstone-like game that expose card creation to the players via in-game card maker GUI
 ---
 
@@ -9,11 +9,11 @@ description:  A Hearthstone-like game that expose card creation to the players v
 
 ***
 
-Video Coming...
+![PC UI](../pictures/pc_ui.gif)
 
 ***
 
-Steam page coming...
+WIP Project
 
 ***
 
@@ -26,14 +26,18 @@ Steam page coming...
 
 ***
 
-Overview coming...
+<div class="section Overview"></div>
+
+Pan's Card is a hearthstone-like project where you can duel with other player over LAN and customize cards with Lua. 
 
 ***
 
 ### Key features
 
-Coming...
+1. Gameplay like Hearthstone
+2. Custom UI Framework
+3. Customizable Cards
+4. Interated Lua source code into engine
+5. TCP Networking with state sync
 
 ***
-
-Gifs coming...
