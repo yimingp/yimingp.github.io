@@ -36,6 +36,6 @@ Pan's Tavern is a PlateUp-like game where you run a restraunt with your friends 
 
 ### Key features
 
-1. Gameplay like PlateUp
+1. Gameplay like <a href="https://store.steampowered.com/app/1599600/PlateUp/">PlateUp!</a>
 2. UDP networking with server authoritative and client-side prediction and rollback with dead reckoning
 3. Able to pick race and classes like DND

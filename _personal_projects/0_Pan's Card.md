@@ -34,7 +34,7 @@ Pan's Card is a hearthstone-like project where you can duel with other player ov
 
 ### Key features
 
-1. Gameplay like Hearthstone
+1. Gameplay like <a href="hearthstone.blizzard.com">Hearthstone</a>
 2. Custom UI Framework
 3. Customizable Cards
 4. Interated Lua source code into engine
