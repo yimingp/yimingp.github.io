@@ -1,7 +1,7 @@
 ---
 name: Starship
 tools: [C++, Custom Engine, OpenGL]
-image: 
+image: ../pictures/ss_demo.gif
 description:  2D Space shooter
 ---
 
@@ -9,11 +9,7 @@ description:  2D Space shooter
 
 ***
 
-Video coming...
-
-***
-
-Demo page coming...
+![Gameplay](../pictures/ss_gp.gif)
 
 ***
 
@@ -25,14 +21,12 @@ Demo page coming...
 
 ***
 
-Overview coming...
+"Starship" is a 2D space shooter arcade game, similar to the iconic "Asteroids," and developed using a custom C++ game engine. Players navigate their spacecraft across the screen, avoiding and destroying enemies and asteroids using various weapons, aiming to clear waves of challenges to finish the game. In addition, player can try turn asteroid into money by encircled them with the rope, and be able to purchase upgrades from stations.
 
 ***
 
 ### Key features
 
-Coming...
-
-***
-
-Gifs coming...
+1. Enemy Waves
+2. Large Map 
+3. Rope encircling detection
