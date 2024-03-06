@@ -44,6 +44,21 @@ weight: 3
   touch-action: manipulation;
 }
 
+[data-theme="light"] {
+  .button-54 {
+    color:black;
+    background-color: white;
+  }
+}
+
+[data-theme="dark"] {
+  .button-54 {
+    color:white;
+    background-color: #212529;
+  }
+}
+
+
 .button-54:active {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
