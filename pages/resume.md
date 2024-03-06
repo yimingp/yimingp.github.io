@@ -11,7 +11,9 @@ weight: 3
     <button class="button-54" role="button" id="buttonB">中文</button>
 </div>
 
-<object id="objectA" data="../assets/path/to/document.pdf" width="1000" height="1000" type='application/pdf'></object>
+<object id="objectA" data="../materials/Yiming Pan Resume.pdf" width="1000" height="1000" type='application/pdf'></object>
+
+<object id="objectB" style="display:none" data="../materials/潘逸铭简历（中）.pdf" width="1000" height="1000" type='application/pdf'></object>
 
 <style>
 #buttonA, #buttonB {
