@@ -9,7 +9,11 @@ description:  Doom + Wolfstein
 
 ***
 
-Video coming...
+<div style="text-align: center;">
+    4 Player characters weapons and ability showcase
+</div>
+
+{% include elements/video.html path="../videos/doom_gp.mp4" %}
 
 ***
 
