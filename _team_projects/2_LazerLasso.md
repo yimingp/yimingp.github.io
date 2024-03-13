@@ -5,7 +5,7 @@ image: ../pictures/lazerlasso_poster.png
 description: Lazer Lasso is a 2D platformer game designed for android tablets and made with Unity. As Lazer Lasso, our main character, your goal is to swing from asteroid-to-asteroid and attack the alien varmints that have stolen your beloved space-cows
 ---
 
-# Seafeud
+# Lazer Lasso
 
 ***
 
@@ -17,11 +17,11 @@ description: Lazer Lasso is a 2D platformer game designed for android tablets an
 - Team size:            4 (1 programmer)
 - Platform:             Android Tablet
 - Engine:               Unity 2022
-- Time:                 September 2022 - Decemeber 2022
+- Time:                 September 2022 - December 2022
 
 ***
 
-Lazer Lasso is a 2D platformer game designed for android tablets and made with Unity. As Lazer Lasso, our main character, your goal is to swing from asteroid-to-asteroid and attack the alien varmints that have stolen your beloved space-cows
+Lazer Lasso is a 2D platformer game designed for android tablets and made with Unity. As Lazer Lasso, our main character, your goal is to swing from asteroid-to-asteroid and attack the alien varmints that have stolen your beloved space-cows.
 
 ***
 
@@ -41,4 +41,4 @@ My role was being the solo programmer that handles everything programming or sof
 
 From left to right : Nicholas, Me, Nick, Matt
 
-![Seafeud Programmers](../pictures/legiongames.webp)
+![Lazer Lasso Team](../pictures/legiongames.jpg)
