@@ -1,0 +1,39 @@
+<div class="row justify-content-center align-items-center p-4">
+
+    <div id="erorsdesk" style="display:none">
+        {% include elements/video.html path="../videos/erorsdesk.mp4" %}
+
+        <div style="text-align: center;">
+            Presenting <a href="https://yimingp.itch.io/erors-desk">Erors Desk</a>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-md-6 text-center mt-4">
+
+        <!-- Fine Circle Responsive Image -->
+        <div id="container" class="my-2">
+            <div id="dummy"></div>
+            <div id="element">
+                <img id="hero" src="{{ site.author.image }}" alt="{{ site.title }}"
+                    class="circle-image wow animated zoomIn" data-wow-delay=".1s">
+            </div>
+        </div>
+
+        <p id="description" class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+    </div>
+</div>
+
+<script>
+
+// Set a timeout to hide the image and paragraph after 2 seconds
+setTimeout(function () {
+    document.getElementById('hero').style.display = 'none';
+    document.getElementById('description').style.display = 'none';
+    document.getElementById('erorsdesk').style.display = 'block';
+}, 2000); // 2000 milliseconds = 2 seconds
+
+</script>
+
+<style>
+
+</style>
