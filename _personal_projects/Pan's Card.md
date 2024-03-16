@@ -47,12 +47,17 @@ Pan's Card is a Hearthstone-like project where you can duel with other player ov
     New UI Design walkthrough
 </div>
 
+{% include elements/video.html path="../videos/pc_make_animation.mp4" %}
+
+<div style="text-align: center;">
+    Making animation for cards with custom engine's keyframe animation editor 
+</div>
+
 {% include elements/video.html path="../videos/pc_cards.mp4" %}
 
 <div style="text-align: center;">
     Reimplementation of classic hearthstone cards
 </div>
-
 
 {% include elements/video.html path="../videos/pc_old_build.mp4" %}
 
