@@ -54,9 +54,9 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 1. Made with blueprint
 2. 3 stages of boss fight that use different beahviour patterns
 3. Created triggers and splines for boss designer to use in the editor
-4. Used Control rig and Animation blueprint for animation
-5. Used Niagara to bring particle effects assets to dragon
-6. Used Behaivour Tree for AI 
+4. Used control rig and animation blueprint for animation
+5. Used niagara to bring particle effects assets to dragon
+6. Used behaivour tree for AI 
 
 ***
 
@@ -73,14 +73,10 @@ Asurya's Embers is a bow-and-arrow game where you play as Dhawa the guardian of 
 
 <div class="section AI"></div>
 
-![AE Behaviour Tree](../pictures/ae_behaviour_tree.webp)
-
 - Implementing Dragon Boss AI with behaviour tree
-
-![AE Enemy Base](../pictures/ae_enemy_base.png)
-
 - Build architecture of Enemy class
 - Finialize enemy classes APIs
+![AE Enemy Base](../pictures/ae_enemy_base.png)
 
 ***
 

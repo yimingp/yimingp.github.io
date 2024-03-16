@@ -31,7 +31,7 @@ description: SeaFeud is an underwater arcade racing game where players ride on a
 
 <div class="section Overview"></div>
 
-SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. Players race on fish and dynamically change their “vehicle” stats by colliding and swapping with other fish on the course. While in typical racing games, players select their vehicle or customize their vehicle prior to starting the game, SeaFeud switches things up by defaulting everyone to a basic fish at the beginning of the race. Throughout the race, the player can swap to other fish, giving them a statistical edge. While on these fish, their stamina will run down before swapping back, encouraging the player to try different playstyles
+SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. Players race on fish and dynamically change their “vehicle” stats by colliding and swapping with other fish on the course. While in typical racing games, players select their vehicle or customize their vehicle prior to starting the game, SeaFeud switches things up by defaulting everyone to a basic fish at the beginning of the race. Throughout the race, the player can swap to other fish, giving them a statistical edge. While on these fish, their stamina will run down before swapping back, encouraging the player to try different playstyles.
 
 ***
 
@@ -40,7 +40,7 @@ SeaFeud is an underwater arcade racing game made by students at SMU Guildhall. P
 1. Setup and maintain the workflow of editor tools such Multi User Editing and sublevels for Level Designers
 2. Setup and maintain the automation pipeline of server nightly builds and steam builds
 3. Setup and maintain perforce and structure of project
-4. Trivial UI menus such as splash, main menu, and options
+4. UI menus such as splash, main menu, and options
 5. Debug and fix blueprint bugs and performance issues
 
 ***

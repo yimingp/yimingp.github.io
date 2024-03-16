@@ -31,7 +31,7 @@ WIP project
 
 ***
 
-Pan's Tavern is a PlateUp-like game where you run a restraunt with your friends and serve incoming customers until overwhelmed. 
+Pan's Tavern is a PlateUp-like game where you run a restaurant with your friends and serve incoming customers until overwhelmed. 
 
 ***
 
