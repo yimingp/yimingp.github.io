@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting to App...</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        .loader { color: #666; }
+    </style>
+</head>
+<body>
+    <div id="message">
+        <h2>Redirecting to SmartLife...</h2>
+        <p class="loader">If the app doesn't open automatically, <a id="manual-link" href="#">click here</a>.</p>
+    </div>
+
+    <script>
+        // 1. Capture the query parameters (e.g., ?code=xyz)
+        const params = window.location.search;
+        const deepLink = "ply.smartlife://feishu-oauth" + params;
+
+        // 2. Update the manual link just in case
+        document.getElementById('manual-link').href = deepLink;
+
+        // 3. Attempt the redirect
+        window.location.href = deepLink;
+
+        // 4. Optional: Close the window or show a "success" message after a delay
+        setTimeout(() => {
+            document.getElementById('message').innerHTML = "<h2>Open in the app</h2><p>You can now close this browser tab.</p>";
+        }, 3000);
+    </script>
+</body>
+</html>
